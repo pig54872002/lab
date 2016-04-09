@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>table</title>
+    </head>
+    <body>
+       
+<table border="1px" width="70%">
+    <CAPTION><h1>成績單</h1></CAPTION>
+    <tr><th rowspan="2">姓名</th> <th colSpan="3">各科成績</th> <th ROWSPAN="2">名次</th></tr>
+    <tr><th>國文</th> <th>英文</th> <th>數學</th></tr>
+    <tr align="center"><td>尚謙</td> <td>36</td> <td>58</td> <td>78</td> <td>3</td></tr>
+    <tr align="center"><td>子豪</td> <td>59</td> <td>90</td> <td>40</td> <td>2</td></tr>
+    <tr align="center"><td>北城</td> <td>75</td> <td>80</td> <td>90</td> <td>1</td></tr>
+    
+
+</table>
+    </body>
+</html>
