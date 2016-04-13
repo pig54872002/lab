@@ -1,0 +1,31 @@
+
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <title>塔層</title>
+        
+
+    </head>
+   <body>
+       <div id="x"></div>
+<script>
+function dog(a){
+    var mon="";
+    for (var i=1; i<=a ; i++){
+       
+       mon = mon + "*";
+    }
+   return mon + "<br>";
+    
+}
+var bat= "";
+var fish = prompt("請輸入塔數:") 
+for (var i=1; i<=fish ; i++){
+ bat = bat + dog(i);   
+    }
+    
+
+   x.innerHTML=bat;
+</script>
+</body>
+</html>
